@@ -1,0 +1,49 @@
+{
+  "name": "medtrace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1",
+    "lint": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:configure": "tsx scripts/configure-postgres.ts",
+    "db:migrate:remote": "tsx scripts/migrate.ts --require-postgres",
+    "db:bootstrap:remote": "tsx scripts/bootstrap-remote.ts",
+    "db:seed": "tsx scripts/seed-configured.ts",
+    "db:reset-demo": "tsx scripts/reset-demo.ts",
+    "integrations:check": "tsx scripts/check-integrations.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.14",
+    "@hookform/resolvers": "^5.2.2",
+    "@next/env": "^16.4.3",
+    "@supabase/supabase-js": "^2.75.0",
+    "bcryptjs": "^3.0.2",
+    "jose": "^6.1.0",
+    "lucide-react": "^0.468.0",
+    "next": "^16.4.3",
+    "pg": "^8.16.3",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.65.0",
+    "reactflow": "^11.11.4",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.18.8",
+    "@types/pg": "^8.15.5",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "playwright-core": "^1.64.1",
+    "tailwindcss": "^4.1.13",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

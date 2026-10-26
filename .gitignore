@@ -1,0 +1,14 @@
+node_modules
+.next
+.env
+.env.local
+.env.local.*
+.env.supabase.pending.json
+.env.*
+!.env.example
+data/
+private-uploads/
+*.log
+*.tsbuildinfo
+*.zip
+qa/supabase-project-setup.png
