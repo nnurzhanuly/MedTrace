@@ -1,0 +1,1126 @@
+{
+  "FG-2026-000004": {
+    "kind": "finished",
+    "lot": {
+      "id": "e34bb7ca-d632-483d-a808-c8a43cc8bf5d",
+      "code": "FG-2026-000004",
+      "kind": "finished",
+      "material_id": null,
+      "product_id": "7f70e141-1b18-4003-8481-c39c70e82b2a",
+      "supplier_id": null,
+      "supplier_lot_number": null,
+      "parent_lot_id": null,
+      "receipt_item_id": null,
+      "production_run_id": "dda56282-eef3-44e8-ad04-64919b95d910",
+      "manufactured_at": "2026-10-23T00:00:00.000Z",
+      "expires_at": "2028-12-31T00:00:00.000Z",
+      "expiry_basis": "Утверждённое правило досье DEMO-01",
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:14.130Z",
+      "version": 2,
+      "product_name": "Набор соединительный MedLink",
+      "order_code": "PO-2026-000003",
+      "run_code": "RUN-2026-000004",
+      "spec_version": 1
+    },
+    "materials": [
+      {
+        "id": "bfc24ecb-5ecc-475d-b96c-d33738712f67",
+        "code": "RM-2026-000004",
+        "parent_lot_id": null,
+        "supplier_lot_number": "POL-88",
+        "material_name": "Полимер медицинский",
+        "supplier_name": "ТОО Полимер Сервис",
+        "receipt_code": "RC-2026-000004",
+        "quantity": "12.500000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "18045cce-7b67-4579-b45f-96fcc8614f69",
+        "code": "RM-2026-000005",
+        "parent_lot_id": null,
+        "supplier_lot_number": "CON-14",
+        "material_name": "Коннектор",
+        "supplier_name": "ТОО Комплект Мед",
+        "receipt_code": "RC-2026-000005",
+        "quantity": "500.000000",
+        "unit_code": "pcs"
+      },
+      {
+        "id": "d25ebb33-18ea-41b2-806f-b0402fabe071",
+        "code": "RM-2026-000006",
+        "parent_lot_id": null,
+        "supplier_lot_number": "LAB-05",
+        "material_name": "Этикетка серии",
+        "supplier_name": "ТОО Упаковка Плюс",
+        "receipt_code": "RC-2026-000006",
+        "quantity": "500.000000",
+        "unit_code": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "id": "1a3d7c8c-7c50-48c0-82b2-2df492219d90",
+        "run_id": "dda56282-eef3-44e8-ad04-64919b95d910",
+        "sequence_no": 1,
+        "name": "Подготовка компонентов",
+        "started_at": "2026-10-23T07:25:14.123Z",
+        "completed_at": "2026-10-23T07:25:14.120Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "9ad61858-be95-425b-a2a8-a5a645a2ac0b",
+        "run_id": "dda56282-eef3-44e8-ad04-64919b95d910",
+        "sequence_no": 2,
+        "name": "Сборка",
+        "started_at": "2026-10-23T07:25:14.126Z",
+        "completed_at": "2026-10-23T07:25:14.124Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "159d74e6-0f16-410a-a620-cb860b1fd7ad",
+        "run_id": "dda56282-eef3-44e8-ad04-64919b95d910",
+        "sequence_no": 3,
+        "name": "Упаковка",
+        "started_at": "2026-10-23T07:25:14.129Z",
+        "completed_at": "2026-10-23T07:25:14.127Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      }
+    ],
+    "checks": [
+      {
+        "id": "7df5a662-11de-41a8-8721-8b80fe2475aa",
+        "lot_id": "bfc24ecb-5ecc-475d-b96c-d33738712f67",
+        "plan_version_id": "011f8539-9a90-4fb3-a51c-40fe18bad7d6",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.739Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "bbacfcaf-9498-4204-8b6f-cfc334ab7e67",
+        "lot_id": "18045cce-7b67-4579-b45f-96fcc8614f69",
+        "plan_version_id": "5321fe57-bc20-43d5-a6ab-fe787520a2b1",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.765Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "81d17feb-29c1-4eaf-b6f6-2711c9e95519",
+        "lot_id": "d25ebb33-18ea-41b2-806f-b0402fabe071",
+        "plan_version_id": "793ddd87-d91e-4dfd-925c-2e2b95814af4",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.790Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "3f26eba4-d224-4765-b945-568eb3dea082",
+        "lot_id": "e34bb7ca-d632-483d-a808-c8a43cc8bf5d",
+        "plan_version_id": "bf8edb8e-d725-42f3-b1dd-3404513a298c",
+        "kind": "finished",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Готовая партия соответствует демонстрационному плану",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:14.141Z",
+        "performer": "Динара Контроль"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "e03ecf46-d7ce-4b50-b55d-9d4881cc35f6",
+        "lot_id": "e34bb7ca-d632-483d-a808-c8a43cc8bf5d",
+        "check_id": "3f26eba4-d224-4765-b945-568eb3dea082",
+        "decision": "release",
+        "basis": "Протокол выходного контроля без замечаний",
+        "created_at": "2026-10-23T07:25:14.146Z",
+        "actor": "Айгуль Качество"
+      }
+    ],
+    "shipments": [
+      {
+        "code": "SH-2026-000003",
+        "confirmed_at": "2026-10-23T07:25:14.206Z",
+        "customer_name_snapshot": "Больница Достык",
+        "address_snapshot": "Шымкент, ул. Байтурсынова 8",
+        "quantity": "100.000000"
+      }
+    ]
+  },
+  "FG-2026-000003": {
+    "kind": "finished",
+    "lot": {
+      "id": "bfcd6542-834b-4ead-a86d-eb8b376eef36",
+      "code": "FG-2026-000003",
+      "kind": "finished",
+      "material_id": null,
+      "product_id": "88a89a56-c335-42f7-9c4b-6a6b59026097",
+      "supplier_id": null,
+      "supplier_lot_number": null,
+      "parent_lot_id": null,
+      "receipt_item_id": null,
+      "production_run_id": "54fd68f2-e674-48e5-9ac4-55c6ab757de8",
+      "manufactured_at": "2026-10-23T00:00:00.000Z",
+      "expires_at": "2028-12-31T00:00:00.000Z",
+      "expiry_basis": "Утверждённое правило досье DEMO-01",
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:14.066Z",
+      "version": 2,
+      "product_name": "Система инфузионная MedFlow",
+      "order_code": "PO-2026-000002",
+      "run_code": "RUN-2026-000003",
+      "spec_version": 1
+    },
+    "materials": [
+      {
+        "id": "bfc24ecb-5ecc-475d-b96c-d33738712f67",
+        "code": "RM-2026-000004",
+        "parent_lot_id": null,
+        "supplier_lot_number": "POL-88",
+        "material_name": "Полимер медицинский",
+        "supplier_name": "ТОО Полимер Сервис",
+        "receipt_code": "RC-2026-000004",
+        "quantity": "25.000000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "code": "RM-2026-000002",
+        "parent_lot_id": null,
+        "supplier_lot_number": "STAB-21",
+        "material_name": "Стабилизатор",
+        "supplier_name": "ТОО Комплект Мед",
+        "receipt_code": "RC-2026-000002",
+        "quantity": "2.500000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "code": "RM-2026-000003",
+        "parent_lot_id": null,
+        "supplier_lot_number": "PACK-09",
+        "material_name": "Стерильный пакет",
+        "supplier_name": "ТОО Упаковка Плюс",
+        "receipt_code": "RC-2026-000003",
+        "quantity": "500.000000",
+        "unit_code": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "id": "6c80d3f6-8c27-4328-ad61-59786dad4db4",
+        "run_id": "54fd68f2-e674-48e5-9ac4-55c6ab757de8",
+        "sequence_no": 1,
+        "name": "Подготовка материалов",
+        "started_at": "2026-10-23T07:25:14.058Z",
+        "completed_at": "2026-10-23T07:25:14.056Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "e14a5a2a-cdf1-4b30-b7cc-fff5ff06f788",
+        "run_id": "54fd68f2-e674-48e5-9ac4-55c6ab757de8",
+        "sequence_no": 2,
+        "name": "Сборка",
+        "started_at": "2026-10-23T07:25:14.061Z",
+        "completed_at": "2026-10-23T07:25:14.059Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "4c84b8df-c3a5-409a-9c4f-2c544c73500e",
+        "run_id": "54fd68f2-e674-48e5-9ac4-55c6ab757de8",
+        "sequence_no": 3,
+        "name": "Упаковка",
+        "started_at": "2026-10-23T07:25:14.064Z",
+        "completed_at": "2026-10-23T07:25:14.062Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      }
+    ],
+    "checks": [
+      {
+        "id": "77b46a03-24d7-41e8-8533-b428e44f0b47",
+        "lot_id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "plan_version_id": "6189871d-230f-4171-94b6-05a7d7cd6555",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.687Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "06a56f3f-d216-4e81-b8d0-6840a65da2ea",
+        "lot_id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "plan_version_id": "ff61ca55-b58b-4863-99d1-3e472e6b4640",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.714Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "7df5a662-11de-41a8-8721-8b80fe2475aa",
+        "lot_id": "bfc24ecb-5ecc-475d-b96c-d33738712f67",
+        "plan_version_id": "011f8539-9a90-4fb3-a51c-40fe18bad7d6",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.739Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "6cc80c64-b2b3-47b0-beef-68b624f4d6ef",
+        "lot_id": "bfcd6542-834b-4ead-a86d-eb8b376eef36",
+        "plan_version_id": "138b8b79-c67b-4574-bfa4-919f90dd3cf1",
+        "kind": "finished",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Готовая партия соответствует демонстрационному плану",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:14.077Z",
+        "performer": "Динара Контроль"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "f4085a46-88e6-43b4-adc5-158c5be97fbe",
+        "lot_id": "bfcd6542-834b-4ead-a86d-eb8b376eef36",
+        "check_id": "6cc80c64-b2b3-47b0-beef-68b624f4d6ef",
+        "decision": "release",
+        "basis": "Протокол выходного контроля без замечаний",
+        "created_at": "2026-10-23T07:25:14.083Z",
+        "actor": "Айгуль Качество"
+      }
+    ],
+    "shipments": []
+  },
+  "FG-2026-000002": {
+    "kind": "finished",
+    "lot": {
+      "id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+      "code": "FG-2026-000002",
+      "kind": "finished",
+      "material_id": null,
+      "product_id": "88a89a56-c335-42f7-9c4b-6a6b59026097",
+      "supplier_id": null,
+      "supplier_lot_number": null,
+      "parent_lot_id": null,
+      "receipt_item_id": null,
+      "production_run_id": "5253cf5b-f5e6-46e1-ba86-4d0fe81173e0",
+      "manufactured_at": "2026-10-23T00:00:00.000Z",
+      "expires_at": "2028-12-31T00:00:00.000Z",
+      "expiry_basis": "Утверждённое правило досье DEMO-01",
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:14.007Z",
+      "version": 2,
+      "product_name": "Система инфузионная MedFlow",
+      "order_code": "PO-2026-000002",
+      "run_code": "RUN-2026-000002",
+      "spec_version": 1
+    },
+    "materials": [
+      {
+        "id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "code": "RM-2026-000001",
+        "parent_lot_id": null,
+        "supplier_lot_number": "POL-77",
+        "material_name": "Полимер медицинский",
+        "supplier_name": "ТОО Полимер Сервис",
+        "receipt_code": "RC-2026-000001",
+        "quantity": "25.000000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "code": "RM-2026-000002",
+        "parent_lot_id": null,
+        "supplier_lot_number": "STAB-21",
+        "material_name": "Стабилизатор",
+        "supplier_name": "ТОО Комплект Мед",
+        "receipt_code": "RC-2026-000002",
+        "quantity": "2.500000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "code": "RM-2026-000003",
+        "parent_lot_id": null,
+        "supplier_lot_number": "PACK-09",
+        "material_name": "Стерильный пакет",
+        "supplier_name": "ТОО Упаковка Плюс",
+        "receipt_code": "RC-2026-000003",
+        "quantity": "500.000000",
+        "unit_code": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "id": "545e8a17-018d-46c8-b920-89effcf9b87d",
+        "run_id": "5253cf5b-f5e6-46e1-ba86-4d0fe81173e0",
+        "sequence_no": 1,
+        "name": "Подготовка материалов",
+        "started_at": "2026-10-23T07:25:13.999Z",
+        "completed_at": "2026-10-23T07:25:13.997Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "1633b863-060e-4406-9a0d-239d4be82ce0",
+        "run_id": "5253cf5b-f5e6-46e1-ba86-4d0fe81173e0",
+        "sequence_no": 2,
+        "name": "Сборка",
+        "started_at": "2026-10-23T07:25:14.002Z",
+        "completed_at": "2026-10-23T07:25:14.001Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "0dedeb64-76d5-4bdf-8cbe-09a34dcb5e60",
+        "run_id": "5253cf5b-f5e6-46e1-ba86-4d0fe81173e0",
+        "sequence_no": 3,
+        "name": "Упаковка",
+        "started_at": "2026-10-23T07:25:14.006Z",
+        "completed_at": "2026-10-23T07:25:14.004Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      }
+    ],
+    "checks": [
+      {
+        "id": "d6fc5235-cd1a-4f64-965a-571bec52689e",
+        "lot_id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "plan_version_id": "011f8539-9a90-4fb3-a51c-40fe18bad7d6",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.656Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "77b46a03-24d7-41e8-8533-b428e44f0b47",
+        "lot_id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "plan_version_id": "6189871d-230f-4171-94b6-05a7d7cd6555",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.687Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "06a56f3f-d216-4e81-b8d0-6840a65da2ea",
+        "lot_id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "plan_version_id": "ff61ca55-b58b-4863-99d1-3e472e6b4640",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.714Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "d536d2fc-c1dd-4ee3-b226-9776315ab3a8",
+        "lot_id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+        "plan_version_id": "138b8b79-c67b-4574-bfa4-919f90dd3cf1",
+        "kind": "finished",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Готовая партия соответствует демонстрационному плану",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:14.018Z",
+        "performer": "Динара Контроль"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "ddb24a39-a4fd-4fc3-8d37-263e8c9f26bb",
+        "lot_id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+        "check_id": "d536d2fc-c1dd-4ee3-b226-9776315ab3a8",
+        "decision": "release",
+        "basis": "Протокол выходного контроля без замечаний",
+        "created_at": "2026-10-23T07:25:14.022Z",
+        "actor": "Айгуль Качество"
+      }
+    ],
+    "shipments": []
+  },
+  "FG-2026-000001": {
+    "kind": "finished",
+    "lot": {
+      "id": "3410896b-645a-4434-8967-e6a480267339",
+      "code": "FG-2026-000001",
+      "kind": "finished",
+      "material_id": null,
+      "product_id": "88a89a56-c335-42f7-9c4b-6a6b59026097",
+      "supplier_id": null,
+      "supplier_lot_number": null,
+      "parent_lot_id": null,
+      "receipt_item_id": null,
+      "production_run_id": "be565f67-4aa1-4887-b273-c37899763279",
+      "manufactured_at": "2026-10-23T00:00:00.000Z",
+      "expires_at": "2028-12-31T00:00:00.000Z",
+      "expiry_basis": "Утверждённое правило досье DEMO-01",
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.944Z",
+      "version": 2,
+      "product_name": "Система инфузионная MedFlow",
+      "order_code": "PO-2026-000001",
+      "run_code": "RUN-2026-000001",
+      "spec_version": 1
+    },
+    "materials": [
+      {
+        "id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "code": "RM-2026-000001",
+        "parent_lot_id": null,
+        "supplier_lot_number": "POL-77",
+        "material_name": "Полимер медицинский",
+        "supplier_name": "ТОО Полимер Сервис",
+        "receipt_code": "RC-2026-000001",
+        "quantity": "50.000000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "code": "RM-2026-000002",
+        "parent_lot_id": null,
+        "supplier_lot_number": "STAB-21",
+        "material_name": "Стабилизатор",
+        "supplier_name": "ТОО Комплект Мед",
+        "receipt_code": "RC-2026-000002",
+        "quantity": "5.000000",
+        "unit_code": "kg"
+      },
+      {
+        "id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "code": "RM-2026-000003",
+        "parent_lot_id": null,
+        "supplier_lot_number": "PACK-09",
+        "material_name": "Стерильный пакет",
+        "supplier_name": "ТОО Упаковка Плюс",
+        "receipt_code": "RC-2026-000003",
+        "quantity": "1000.000000",
+        "unit_code": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "id": "f3a3e88c-1aa7-4444-9775-e57390350887",
+        "run_id": "be565f67-4aa1-4887-b273-c37899763279",
+        "sequence_no": 1,
+        "name": "Подготовка материалов",
+        "started_at": "2026-10-23T07:25:13.936Z",
+        "completed_at": "2026-10-23T07:25:13.934Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "f122015c-03b7-4655-97fb-f10ec5a9f580",
+        "run_id": "be565f67-4aa1-4887-b273-c37899763279",
+        "sequence_no": 2,
+        "name": "Сборка",
+        "started_at": "2026-10-23T07:25:13.940Z",
+        "completed_at": "2026-10-23T07:25:13.938Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      },
+      {
+        "id": "bd5e374e-0185-4b94-8116-b432ca541923",
+        "run_id": "be565f67-4aa1-4887-b273-c37899763279",
+        "sequence_no": 3,
+        "name": "Упаковка",
+        "started_at": "2026-10-23T07:25:13.943Z",
+        "completed_at": "2026-10-23T07:25:13.941Z",
+        "result": {},
+        "equipment": null,
+        "comment": "Этап выполнен"
+      }
+    ],
+    "checks": [
+      {
+        "id": "d6fc5235-cd1a-4f64-965a-571bec52689e",
+        "lot_id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "plan_version_id": "011f8539-9a90-4fb3-a51c-40fe18bad7d6",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.656Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "77b46a03-24d7-41e8-8533-b428e44f0b47",
+        "lot_id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "plan_version_id": "6189871d-230f-4171-94b6-05a7d7cd6555",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.687Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "06a56f3f-d216-4e81-b8d0-6840a65da2ea",
+        "lot_id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "plan_version_id": "ff61ca55-b58b-4863-99d1-3e472e6b4640",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.714Z",
+        "performer": "Динара Контроль"
+      },
+      {
+        "id": "519f0c54-d834-41f2-bd9b-d60b14b94960",
+        "lot_id": "3410896b-645a-4434-8967-e6a480267339",
+        "plan_version_id": "138b8b79-c67b-4574-bfa4-919f90dd3cf1",
+        "kind": "finished",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Готовая партия соответствует демонстрационному плану",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.956Z",
+        "performer": "Динара Контроль"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "dbaa9407-7fe5-4e13-8768-173a0c7b8f61",
+        "lot_id": "3410896b-645a-4434-8967-e6a480267339",
+        "check_id": "519f0c54-d834-41f2-bd9b-d60b14b94960",
+        "decision": "release",
+        "basis": "Протокол выходного контроля без замечаний",
+        "created_at": "2026-10-23T07:25:13.960Z",
+        "actor": "Айгуль Качество"
+      }
+    ],
+    "shipments": [
+      {
+        "code": "SH-2026-000001",
+        "confirmed_at": "2026-10-23T07:25:14.175Z",
+        "customer_name_snapshot": "Клиника Арман",
+        "address_snapshot": "Алматы, ул. Абая 12",
+        "quantity": "300.000000"
+      },
+      {
+        "code": "SH-2026-000002",
+        "confirmed_at": "2026-10-23T07:25:14.191Z",
+        "customer_name_snapshot": "Медцентр Сапа",
+        "address_snapshot": "Астана, пр. Тауелсиздик 5",
+        "quantity": "200.000000"
+      }
+    ]
+  },
+  "RM-2026-000006": {
+    "kind": "material",
+    "lot": {
+      "id": "d25ebb33-18ea-41b2-806f-b0402fabe071",
+      "code": "RM-2026-000006",
+      "kind": "material",
+      "material_id": "64a00bbe-da31-440b-94df-857c9bb2dfe3",
+      "product_id": null,
+      "supplier_id": "f8d5c9af-1147-42f5-8ad9-8a1016bb1c4d",
+      "supplier_lot_number": "LAB-05",
+      "parent_lot_id": null,
+      "receipt_item_id": "c0e53ae0-ac5f-4307-91bd-b15bce3f4fa2",
+      "production_run_id": null,
+      "manufactured_at": null,
+      "expires_at": null,
+      "expiry_basis": null,
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.782Z",
+      "version": 2,
+      "material_name": "Этикетка серии",
+      "supplier_name": "ТОО Упаковка Плюс",
+      "receipt_code": "RC-2026-000006"
+    },
+    "descendants": [
+      {
+        "id": "e34bb7ca-d632-483d-a808-c8a43cc8bf5d",
+        "code": "FG-2026-000004",
+        "order_code": "PO-2026-000003",
+        "run_code": "RUN-2026-000004",
+        "product_name": "Набор соединительный MedLink"
+      }
+    ],
+    "checks": [
+      {
+        "id": "81d17feb-29c1-4eaf-b6f6-2711c9e95519",
+        "lot_id": "d25ebb33-18ea-41b2-806f-b0402fabe071",
+        "plan_version_id": "793ddd87-d91e-4dfd-925c-2e2b95814af4",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.790Z"
+      }
+    ],
+    "reservations": [],
+    "shipments": [
+      {
+        "lot_code": "FG-2026-000004",
+        "shipment_code": "SH-2026-000003",
+        "confirmed_at": "2026-10-23T07:25:14.206Z",
+        "customer_name_snapshot": "Больница Достык",
+        "address_snapshot": "Шымкент, ул. Байтурсынова 8",
+        "quantity": "100.000000"
+      }
+    ],
+    "holds": []
+  },
+  "RM-2026-000005": {
+    "kind": "material",
+    "lot": {
+      "id": "18045cce-7b67-4579-b45f-96fcc8614f69",
+      "code": "RM-2026-000005",
+      "kind": "material",
+      "material_id": "fcb81f9e-24c3-42dc-a77d-030cda2c32c2",
+      "product_id": null,
+      "supplier_id": "13558649-74f7-4bb4-b00b-32c605f34ce1",
+      "supplier_lot_number": "CON-14",
+      "parent_lot_id": null,
+      "receipt_item_id": "74c5609e-be29-4835-ad5c-74ed9a911e40",
+      "production_run_id": null,
+      "manufactured_at": null,
+      "expires_at": null,
+      "expiry_basis": null,
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.757Z",
+      "version": 2,
+      "material_name": "Коннектор",
+      "supplier_name": "ТОО Комплект Мед",
+      "receipt_code": "RC-2026-000005"
+    },
+    "descendants": [
+      {
+        "id": "e34bb7ca-d632-483d-a808-c8a43cc8bf5d",
+        "code": "FG-2026-000004",
+        "order_code": "PO-2026-000003",
+        "run_code": "RUN-2026-000004",
+        "product_name": "Набор соединительный MedLink"
+      }
+    ],
+    "checks": [
+      {
+        "id": "bbacfcaf-9498-4204-8b6f-cfc334ab7e67",
+        "lot_id": "18045cce-7b67-4579-b45f-96fcc8614f69",
+        "plan_version_id": "5321fe57-bc20-43d5-a6ab-fe787520a2b1",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.765Z"
+      }
+    ],
+    "reservations": [],
+    "shipments": [
+      {
+        "lot_code": "FG-2026-000004",
+        "shipment_code": "SH-2026-000003",
+        "confirmed_at": "2026-10-23T07:25:14.206Z",
+        "customer_name_snapshot": "Больница Достык",
+        "address_snapshot": "Шымкент, ул. Байтурсынова 8",
+        "quantity": "100.000000"
+      }
+    ],
+    "holds": []
+  },
+  "RM-2026-000004": {
+    "kind": "material",
+    "lot": {
+      "id": "bfc24ecb-5ecc-475d-b96c-d33738712f67",
+      "code": "RM-2026-000004",
+      "kind": "material",
+      "material_id": "1e683d2b-8d0c-4beb-b5db-39bc2d0da2e3",
+      "product_id": null,
+      "supplier_id": "f3b4e7f3-bb2a-41a9-9b6a-a865e2f1943c",
+      "supplier_lot_number": "POL-88",
+      "parent_lot_id": null,
+      "receipt_item_id": "397495dd-7df9-4a67-8341-951208d09c68",
+      "production_run_id": null,
+      "manufactured_at": null,
+      "expires_at": "2028-01-31T00:00:00.000Z",
+      "expiry_basis": null,
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.731Z",
+      "version": 2,
+      "material_name": "Полимер медицинский",
+      "supplier_name": "ТОО Полимер Сервис",
+      "receipt_code": "RC-2026-000004"
+    },
+    "descendants": [
+      {
+        "id": "bfcd6542-834b-4ead-a86d-eb8b376eef36",
+        "code": "FG-2026-000003",
+        "order_code": "PO-2026-000002",
+        "run_code": "RUN-2026-000003",
+        "product_name": "Система инфузионная MedFlow"
+      },
+      {
+        "id": "e34bb7ca-d632-483d-a808-c8a43cc8bf5d",
+        "code": "FG-2026-000004",
+        "order_code": "PO-2026-000003",
+        "run_code": "RUN-2026-000004",
+        "product_name": "Набор соединительный MedLink"
+      }
+    ],
+    "checks": [
+      {
+        "id": "7df5a662-11de-41a8-8721-8b80fe2475aa",
+        "lot_id": "bfc24ecb-5ecc-475d-b96c-d33738712f67",
+        "plan_version_id": "011f8539-9a90-4fb3-a51c-40fe18bad7d6",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.739Z"
+      }
+    ],
+    "reservations": [],
+    "shipments": [
+      {
+        "lot_code": "FG-2026-000004",
+        "shipment_code": "SH-2026-000003",
+        "confirmed_at": "2026-10-23T07:25:14.206Z",
+        "customer_name_snapshot": "Больница Достык",
+        "address_snapshot": "Шымкент, ул. Байтурсынова 8",
+        "quantity": "100.000000"
+      }
+    ],
+    "holds": []
+  },
+  "RM-2026-000003": {
+    "kind": "material",
+    "lot": {
+      "id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+      "code": "RM-2026-000003",
+      "kind": "material",
+      "material_id": "2b015965-1c00-4a76-a001-ebe2f42132e8",
+      "product_id": null,
+      "supplier_id": "f8d5c9af-1147-42f5-8ad9-8a1016bb1c4d",
+      "supplier_lot_number": "PACK-09",
+      "parent_lot_id": null,
+      "receipt_item_id": "8847afee-098f-46e0-b512-16f17156699d",
+      "production_run_id": null,
+      "manufactured_at": null,
+      "expires_at": null,
+      "expiry_basis": null,
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.706Z",
+      "version": 2,
+      "material_name": "Стерильный пакет",
+      "supplier_name": "ТОО Упаковка Плюс",
+      "receipt_code": "RC-2026-000003"
+    },
+    "descendants": [
+      {
+        "id": "bfcd6542-834b-4ead-a86d-eb8b376eef36",
+        "code": "FG-2026-000003",
+        "order_code": "PO-2026-000002",
+        "run_code": "RUN-2026-000003",
+        "product_name": "Система инфузионная MedFlow"
+      },
+      {
+        "id": "3410896b-645a-4434-8967-e6a480267339",
+        "code": "FG-2026-000001",
+        "order_code": "PO-2026-000001",
+        "run_code": "RUN-2026-000001",
+        "product_name": "Система инфузионная MedFlow"
+      },
+      {
+        "id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+        "code": "FG-2026-000002",
+        "order_code": "PO-2026-000002",
+        "run_code": "RUN-2026-000002",
+        "product_name": "Система инфузионная MedFlow"
+      }
+    ],
+    "checks": [
+      {
+        "id": "06a56f3f-d216-4e81-b8d0-6840a65da2ea",
+        "lot_id": "22e9c27f-27a9-4d2f-abac-1a3d86c9c007",
+        "plan_version_id": "ff61ca55-b58b-4863-99d1-3e472e6b4640",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.714Z"
+      }
+    ],
+    "reservations": [],
+    "shipments": [
+      {
+        "lot_code": "FG-2026-000001",
+        "shipment_code": "SH-2026-000002",
+        "confirmed_at": "2026-10-23T07:25:14.191Z",
+        "customer_name_snapshot": "Медцентр Сапа",
+        "address_snapshot": "Астана, пр. Тауелсиздик 5",
+        "quantity": "200.000000"
+      },
+      {
+        "lot_code": "FG-2026-000001",
+        "shipment_code": "SH-2026-000001",
+        "confirmed_at": "2026-10-23T07:25:14.175Z",
+        "customer_name_snapshot": "Клиника Арман",
+        "address_snapshot": "Алматы, ул. Абая 12",
+        "quantity": "300.000000"
+      }
+    ],
+    "holds": []
+  },
+  "RM-2026-000002": {
+    "kind": "material",
+    "lot": {
+      "id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+      "code": "RM-2026-000002",
+      "kind": "material",
+      "material_id": "b79d6c26-f30d-4b0b-8020-0c68f5b0c1b6",
+      "product_id": null,
+      "supplier_id": "13558649-74f7-4bb4-b00b-32c605f34ce1",
+      "supplier_lot_number": "STAB-21",
+      "parent_lot_id": null,
+      "receipt_item_id": "8c7dadac-0a82-4bc9-bb87-a85b322f3a86",
+      "production_run_id": null,
+      "manufactured_at": null,
+      "expires_at": "2027-06-30T00:00:00.000Z",
+      "expiry_basis": null,
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.679Z",
+      "version": 2,
+      "material_name": "Стабилизатор",
+      "supplier_name": "ТОО Комплект Мед",
+      "receipt_code": "RC-2026-000002"
+    },
+    "descendants": [
+      {
+        "id": "bfcd6542-834b-4ead-a86d-eb8b376eef36",
+        "code": "FG-2026-000003",
+        "order_code": "PO-2026-000002",
+        "run_code": "RUN-2026-000003",
+        "product_name": "Система инфузионная MedFlow"
+      },
+      {
+        "id": "3410896b-645a-4434-8967-e6a480267339",
+        "code": "FG-2026-000001",
+        "order_code": "PO-2026-000001",
+        "run_code": "RUN-2026-000001",
+        "product_name": "Система инфузионная MedFlow"
+      },
+      {
+        "id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+        "code": "FG-2026-000002",
+        "order_code": "PO-2026-000002",
+        "run_code": "RUN-2026-000002",
+        "product_name": "Система инфузионная MedFlow"
+      }
+    ],
+    "checks": [
+      {
+        "id": "77b46a03-24d7-41e8-8533-b428e44f0b47",
+        "lot_id": "4de17a16-b2f9-416c-b575-1bd9ab78d3a9",
+        "plan_version_id": "6189871d-230f-4171-94b6-05a7d7cd6555",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.687Z"
+      }
+    ],
+    "reservations": [],
+    "shipments": [
+      {
+        "lot_code": "FG-2026-000001",
+        "shipment_code": "SH-2026-000002",
+        "confirmed_at": "2026-10-23T07:25:14.191Z",
+        "customer_name_snapshot": "Медцентр Сапа",
+        "address_snapshot": "Астана, пр. Тауелсиздик 5",
+        "quantity": "200.000000"
+      },
+      {
+        "lot_code": "FG-2026-000001",
+        "shipment_code": "SH-2026-000001",
+        "confirmed_at": "2026-10-23T07:25:14.175Z",
+        "customer_name_snapshot": "Клиника Арман",
+        "address_snapshot": "Алматы, ул. Абая 12",
+        "quantity": "300.000000"
+      }
+    ],
+    "holds": []
+  },
+  "RM-2026-000001": {
+    "kind": "material",
+    "lot": {
+      "id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+      "code": "RM-2026-000001",
+      "kind": "material",
+      "material_id": "1e683d2b-8d0c-4beb-b5db-39bc2d0da2e3",
+      "product_id": null,
+      "supplier_id": "f3b4e7f3-bb2a-41a9-9b6a-a865e2f1943c",
+      "supplier_lot_number": "POL-77",
+      "parent_lot_id": null,
+      "receipt_item_id": "389263f9-aa2e-4cc3-ab07-af9e65498c56",
+      "production_run_id": null,
+      "manufactured_at": null,
+      "expires_at": "2027-12-31T00:00:00.000Z",
+      "expiry_basis": null,
+      "quality_status": "released",
+      "created_at": "2026-10-23T07:25:13.644Z",
+      "version": 2,
+      "material_name": "Полимер медицинский",
+      "supplier_name": "ТОО Полимер Сервис",
+      "receipt_code": "RC-2026-000001"
+    },
+    "descendants": [
+      {
+        "id": "3410896b-645a-4434-8967-e6a480267339",
+        "code": "FG-2026-000001",
+        "order_code": "PO-2026-000001",
+        "run_code": "RUN-2026-000001",
+        "product_name": "Система инфузионная MedFlow"
+      },
+      {
+        "id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+        "code": "FG-2026-000002",
+        "order_code": "PO-2026-000002",
+        "run_code": "RUN-2026-000002",
+        "product_name": "Система инфузионная MedFlow"
+      }
+    ],
+    "checks": [
+      {
+        "id": "d6fc5235-cd1a-4f64-965a-571bec52689e",
+        "lot_id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "plan_version_id": "011f8539-9a90-4fb3-a51c-40fe18bad7d6",
+        "kind": "incoming",
+        "attempt": 1,
+        "status": "submitted",
+        "result_summary": "Проверки выполнены, замечаний нет",
+        "passed": true,
+        "performed_by": "0cb5b5a5-5f7f-498f-b30c-cdfb7e46b82f",
+        "performed_at": "2026-10-23T07:25:13.656Z"
+      }
+    ],
+    "reservations": [],
+    "shipments": [
+      {
+        "lot_code": "FG-2026-000001",
+        "shipment_code": "SH-2026-000002",
+        "confirmed_at": "2026-10-23T07:25:14.191Z",
+        "customer_name_snapshot": "Медцентр Сапа",
+        "address_snapshot": "Астана, пр. Тауелсиздик 5",
+        "quantity": "200.000000"
+      },
+      {
+        "lot_code": "FG-2026-000001",
+        "shipment_code": "SH-2026-000001",
+        "confirmed_at": "2026-10-23T07:25:14.175Z",
+        "customer_name_snapshot": "Клиника Арман",
+        "address_snapshot": "Алматы, ул. Абая 12",
+        "quantity": "300.000000"
+      }
+    ],
+    "holds": [
+      {
+        "id": "4eba3c6f-5b8f-4c0d-9554-015d9cb549de",
+        "lot_id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "reason": "Оценка потенциального дефекта исходного полимера",
+        "source_lot_id": null,
+        "protective": false,
+        "placed_by": "00dcec06-a813-4c0f-ab06-f9885e944a61",
+        "placed_at": "2026-10-23T07:25:14.217Z",
+        "released_by": null,
+        "released_at": null,
+        "release_reason": null
+      },
+      {
+        "id": "7220e651-d0ca-4464-8d60-49d0e7c43cf9",
+        "lot_id": "3410896b-645a-4434-8967-e6a480267339",
+        "reason": "Защитная блокировка: RM-2026-000001. Оценка потенциального дефекта исходного полимера",
+        "source_lot_id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "protective": true,
+        "placed_by": "00dcec06-a813-4c0f-ab06-f9885e944a61",
+        "placed_at": "2026-10-23T07:25:14.217Z",
+        "released_by": null,
+        "released_at": null,
+        "release_reason": null
+      },
+      {
+        "id": "4ec98cbc-0ce7-46df-8ec2-d0c850b574fe",
+        "lot_id": "3d42d848-54a2-42cc-8a52-a2e5ff6e3f72",
+        "reason": "Защитная блокировка: RM-2026-000001. Оценка потенциального дефекта исходного полимера",
+        "source_lot_id": "af1657b8-249c-4a4a-95f2-d04edd53afe6",
+        "protective": true,
+        "placed_by": "00dcec06-a813-4c0f-ab06-f9885e944a61",
+        "placed_at": "2026-10-23T07:25:14.217Z",
+        "released_by": null,
+        "released_at": null,
+        "release_reason": null
+      }
+    ]
+  }
+}
